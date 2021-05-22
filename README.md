@@ -10,11 +10,6 @@ Users build a dollar cost averaging calculator to project potential returns for 
 
 <a href = "https://cocoapods.org/pods/Loaf"> Loaf</a> is a Swifty Framework for Easy iOS Toasts. </br>
 
-
-
-Cocoa pods was installed but it wasn't used
-
-
 <h2>Screen Gif</h2>
 
 ![alt text](screen.gif)

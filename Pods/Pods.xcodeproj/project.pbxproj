@@ -1,0 +1,1193 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		339C9C48783620C7352D63696D4F04B8 /* Pods-FinancialApp-FinancialAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E480E16803F9E245DF759A7EF163191B /* Pods-FinancialApp-FinancialAppUITests-dummy.m */; };
+		3A0FEA1EC8D5F7D4AE6383A1452C4C95 /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CD93BA9348794BD12FCD5E983F90AF /* Icons.swift */; };
+		5B32F3FAAB86A12BDA347FE3F68E988E /* Pods-FinancialApp-FinancialAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1A6A9426C32769B589212410F41D4F9 /* Pods-FinancialApp-FinancialAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6270527753A2A79739ED04A0E7C2996F /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9118EB61543795D7A2B15B44730AC1E0 /* Manager.swift */; };
+		68291B4CF16255D3A7B0353C0BE2888F /* Loaf.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62798FB68EEE92D6A9935860792954E /* Loaf.swift */; };
+		70EE1C774C978E1876AE6CA1224E897D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D47ECA473F83C4EC559D3E678E65DA8 /* MBProgressHUD.m */; };
+		721A035134E7957C0227E47DCE0270B4 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F328018CFC4B35E40355F102C57F14BA /* Animator.swift */; };
+		7596519E375DA27F6E7D05D440757055 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CABB98090B02C131F86931CB9BE54B7A /* CoreGraphics.framework */; };
+		7E3D75A8D56AF9B2FBB453CC9E623BAC /* Loaf-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91377FF5BA382C3E3411DAFF56A5AF16 /* Loaf-dummy.m */; };
+		7E4B0636A4D17A77E364AF3D258E9CD9 /* Pods-FinancialAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27554533FD4BA60C7D7A91BCE9C134 /* Pods-FinancialAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81B9E2F21B1EF9FE4E769103108DEA8A /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 440BCEA77E196483178328C04C20AE7A /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		905F6C4AE74097C8490206AAF61F1155 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF83298AE97C81326A10E9BAF1259FE /* Controller.swift */; };
+		A06E19B6DDBD8CC99EC4E1041C410990 /* Pods-FinancialAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 825C75ACEF36C8B55175C32D25EDF0BB /* Pods-FinancialAppTests-dummy.m */; };
+		AC1B5B34F7456E723EC031A496585471 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
+		B7A199EB1ACB8BBC909FD68519748110 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
+		BF6DDA092BAB26485BEDB22956DA8C85 /* Loaf-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE66A34F9C2391937D63BD53E8202261 /* Loaf-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DABF20F73D27572CD97071A6D4DB9004 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A857022BAE864EF05BAB53C72789CF /* MBProgressHUD-dummy.m */; };
+		EB2A4C29BE958CCB03B3FD9FAB927F1F /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E2FC655DAA6AB55D1E70084FA1AE19 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC1B62640BFAA43FF93760C93AA0D5E9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B06878A3104E630D72DA5801A34A0C /* Extensions.swift */; };
+		ECDB721E7BA25130A247048EC9BD891B /* Pods-FinancialApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73229F94E68B03455465D5B63A2E6715 /* Pods-FinancialApp-dummy.m */; };
+		EF3AE9E5A9C3E93AD545AA09320369A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
+		F1C4BA1D47CD470635C046C5E238326F /* Pods-FinancialApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0409929050A905E36E891F00B236225C /* Pods-FinancialApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F612969E69DE5F072AD96720641B1184 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51AB40693B18F443F75126966ED13E47 /* QuartzCore.framework */; };
+		F680187072D61B30CB574B0C111CEC9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
+		FF669312E5814ED8250E627796F121D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E33645C01FE982D4D032C105474CCFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E12D5ED3565D8FCC3DD9B9DD89246A9;
+			remoteInfo = Loaf;
+		};
+		59C686EBC56491BC6491D1875D49D0E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
+			remoteInfo = MBProgressHUD;
+		};
+		B16CA37DD2F1E5CC5A64CC39656D93C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E12D5ED3565D8FCC3DD9B9DD89246A9;
+			remoteInfo = Loaf;
+		};
+		BB0292ACE5810BB359B21C121435FB17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
+			remoteInfo = MBProgressHUD;
+		};
+		C720AE37653508480139E5A958136554 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 127ED619695C9361B48E4528F1DF3A74;
+			remoteInfo = "Pods-FinancialApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0221EECCC7402570938C4C33502DC0C1 /* Pods-FinancialAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FinancialAppTests.modulemap"; sourceTree = "<group>"; };
+		0409929050A905E36E891F00B236225C /* Pods-FinancialApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FinancialApp-umbrella.h"; sourceTree = "<group>"; };
+		06D8CB916114A124BDD41FF2B93A6B9E /* Pods-FinancialApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FinancialApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		0B26787CA00B8C77CEBAC471FBE11AE0 /* Pods-FinancialApp-FinancialAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FinancialApp-FinancialAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0CF83298AE97C81326A10E9BAF1259FE /* Controller.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Controller.swift; path = Sources/Loaf/Presenter/Controller.swift; sourceTree = "<group>"; };
+		12DBBEE7B313E39B83F5BA714A9B4DBB /* Pods-FinancialApp-FinancialAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FinancialApp-FinancialAppUITests-Info.plist"; sourceTree = "<group>"; };
+		17B5DB801CEE627C4D4250E67171E79B /* Pods_FinancialAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FinancialAppTests.framework; path = "Pods-FinancialAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CA523FE95A5F6624816F99D1CD11B59 /* Pods-FinancialApp-FinancialAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FinancialApp-FinancialAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1FC9030BFFECB4C9B239498F9D7020E7 /* Loaf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Loaf.release.xcconfig; sourceTree = "<group>"; };
+		22B06878A3104E630D72DA5801A34A0C /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Sources/Loaf/Extensions.swift; sourceTree = "<group>"; };
+		253E3D79146CB93C4D200EC2CCFB48B1 /* Pods-FinancialAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FinancialAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2A183C971408674C0497E646ABE375A1 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		33E2FC655DAA6AB55D1E70084FA1AE19 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		3D47ECA473F83C4EC559D3E678E65DA8 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		440BCEA77E196483178328C04C20AE7A /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		4A8C880B765EB542FEE943DDD737D406 /* Pods-FinancialApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FinancialApp.debug.xcconfig"; sourceTree = "<group>"; };
+		4BE730510F6EBDAEF7EF02CB99F4B209 /* Loaf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Loaf.framework; path = Loaf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51AB40693B18F443F75126966ED13E47 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		5BE2C697BA3E916A9002ED2E88BF36B7 /* Pods_FinancialApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FinancialApp.framework; path = "Pods-FinancialApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		649CA58EFE9A01A133D46DB356563F21 /* Pods-FinancialAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FinancialAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		73229F94E68B03455465D5B63A2E6715 /* Pods-FinancialApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FinancialApp-dummy.m"; sourceTree = "<group>"; };
+		79E998B1BDCAE557F92F4A950CD70EAA /* Pods-FinancialApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FinancialApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7DA9EBFB0FEF2F29D96B2C49A6654B79 /* Pods-FinancialAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FinancialAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E0A5BD0497B4E2633550F27C0685086 /* Pods-FinancialApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FinancialApp-frameworks.sh"; sourceTree = "<group>"; };
+		814FD7D14238761EED26D52FE2753835 /* Loaf.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Loaf.modulemap; sourceTree = "<group>"; };
+		825C75ACEF36C8B55175C32D25EDF0BB /* Pods-FinancialAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FinancialAppTests-dummy.m"; sourceTree = "<group>"; };
+		86790C12B9F3EE513B0A8FD8256D80BC /* MBProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
+		89AFFFCC488FE3A86F631A6CA68E60B8 /* Loaf-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Loaf-Info.plist"; sourceTree = "<group>"; };
+		8B8E07B64692F7BBAA6CAAA88E365044 /* MBProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.release.xcconfig; sourceTree = "<group>"; };
+		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D9FD77D1A9D68F97867BC257A4AE742 /* Pods-FinancialAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FinancialAppTests-Info.plist"; sourceTree = "<group>"; };
+		905B797F45E2B7E6D461A96F6152CAC2 /* Loaf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Loaf.debug.xcconfig; sourceTree = "<group>"; };
+		9118EB61543795D7A2B15B44730AC1E0 /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Sources/Loaf/Presenter/Manager.swift; sourceTree = "<group>"; };
+		91377FF5BA382C3E3411DAFF56A5AF16 /* Loaf-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Loaf-dummy.m"; sourceTree = "<group>"; };
+		963E3DA6F7C232F7CFC31C4F4DC02BA8 /* Pods-FinancialApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FinancialApp.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EE5B8FDDC0F33D87C66A19B52355B85 /* Pods-FinancialAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FinancialAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A1CD93BA9348794BD12FCD5E983F90AF /* Icons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Icons.swift; path = Sources/Loaf/Icons.swift; sourceTree = "<group>"; };
+		B3ABFFFA87FC0F769EAB0572D2E96537 /* Pods_FinancialApp_FinancialAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FinancialApp_FinancialAppUITests.framework; path = "Pods-FinancialApp-FinancialAppUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6082955779543A31F5BE39751D45382 /* MBProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		BAC0954E7CD54EA13706145B067524B7 /* Pods-FinancialApp-FinancialAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FinancialApp-FinancialAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C259019C1DBA2BF92EECBB352F8CDD7A /* Pods-FinancialApp-FinancialAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FinancialApp-FinancialAppUITests-frameworks.sh"; sourceTree = "<group>"; };
+		CABB98090B02C131F86931CB9BE54B7A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CB484AF63F3610BB3C1078BC03F5ADB2 /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
+		CB5CB1AF488BDFE8EBCA48302646D9FE /* Pods-FinancialApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FinancialApp.modulemap"; sourceTree = "<group>"; };
+		D6B90952203913457DEF6F70615FFC65 /* Pods-FinancialApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FinancialApp-Info.plist"; sourceTree = "<group>"; };
+		D9CAE47570B798B7C38BAEF1F5A2C74D /* Pods-FinancialApp-FinancialAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FinancialApp-FinancialAppUITests.modulemap"; sourceTree = "<group>"; };
+		E480E16803F9E245DF759A7EF163191B /* Pods-FinancialApp-FinancialAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FinancialApp-FinancialAppUITests-dummy.m"; sourceTree = "<group>"; };
+		E62798FB68EEE92D6A9935860792954E /* Loaf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Loaf.swift; path = Sources/Loaf/Loaf.swift; sourceTree = "<group>"; };
+		EB27554533FD4BA60C7D7A91BCE9C134 /* Pods-FinancialAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FinancialAppTests-umbrella.h"; sourceTree = "<group>"; };
+		F0A857022BAE864EF05BAB53C72789CF /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		F18260734F6D1999747FAF0BA7823A3D /* Pods-FinancialApp-FinancialAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FinancialApp-FinancialAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F1A6A9426C32769B589212410F41D4F9 /* Pods-FinancialApp-FinancialAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FinancialApp-FinancialAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		F2880FDFBE430A8A3A71C74473A8F7E2 /* Loaf-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Loaf-prefix.pch"; sourceTree = "<group>"; };
+		F328018CFC4B35E40355F102C57F14BA /* Animator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animator.swift; path = Sources/Loaf/Presenter/Animator.swift; sourceTree = "<group>"; };
+		FE66A34F9C2391937D63BD53E8202261 /* Loaf-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Loaf-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AA3C16B4B3AB40CA74BDDADEF5C143A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7596519E375DA27F6E7D05D440757055 /* CoreGraphics.framework in Frameworks */,
+				AC1B5B34F7456E723EC031A496585471 /* Foundation.framework in Frameworks */,
+				F612969E69DE5F072AD96720641B1184 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2909161863B5A3EBA975E89A3E71680B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF669312E5814ED8250E627796F121D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ADA4FC90CE4EE58A845AF5945FBFCEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3AE9E5A9C3E93AD545AA09320369A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7A998D4B0F6241C42B3E28C42C9CF5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F680187072D61B30CB574B0C111CEC9F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F98B862DAB0476F76CBFB5D55380AB59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7A199EB1ACB8BBC909FD68519748110 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D6691D8CB3D493006A8661C7CFED31A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		446CC2B85C82735D433B0DA911D3501A /* Pods-FinancialApp */ = {
+			isa = PBXGroup;
+			children = (
+				CB5CB1AF488BDFE8EBCA48302646D9FE /* Pods-FinancialApp.modulemap */,
+				79E998B1BDCAE557F92F4A950CD70EAA /* Pods-FinancialApp-acknowledgements.markdown */,
+				06D8CB916114A124BDD41FF2B93A6B9E /* Pods-FinancialApp-acknowledgements.plist */,
+				73229F94E68B03455465D5B63A2E6715 /* Pods-FinancialApp-dummy.m */,
+				7E0A5BD0497B4E2633550F27C0685086 /* Pods-FinancialApp-frameworks.sh */,
+				D6B90952203913457DEF6F70615FFC65 /* Pods-FinancialApp-Info.plist */,
+				0409929050A905E36E891F00B236225C /* Pods-FinancialApp-umbrella.h */,
+				4A8C880B765EB542FEE943DDD737D406 /* Pods-FinancialApp.debug.xcconfig */,
+				963E3DA6F7C232F7CFC31C4F4DC02BA8 /* Pods-FinancialApp.release.xcconfig */,
+			);
+			name = "Pods-FinancialApp";
+			path = "Target Support Files/Pods-FinancialApp";
+			sourceTree = "<group>";
+		};
+		4D6691D8CB3D493006A8661C7CFED31A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CABB98090B02C131F86931CB9BE54B7A /* CoreGraphics.framework */,
+				CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */,
+				51AB40693B18F443F75126966ED13E47 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		58F00DD1FDF270EAD3D6632FDC974D31 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB484AF63F3610BB3C1078BC03F5ADB2 /* MBProgressHUD.modulemap */,
+				F0A857022BAE864EF05BAB53C72789CF /* MBProgressHUD-dummy.m */,
+				B6082955779543A31F5BE39751D45382 /* MBProgressHUD-Info.plist */,
+				2A183C971408674C0497E646ABE375A1 /* MBProgressHUD-prefix.pch */,
+				440BCEA77E196483178328C04C20AE7A /* MBProgressHUD-umbrella.h */,
+				86790C12B9F3EE513B0A8FD8256D80BC /* MBProgressHUD.debug.xcconfig */,
+				8B8E07B64692F7BBAA6CAAA88E365044 /* MBProgressHUD.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		76B3BB2B75F30957DF28D889D35B64A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF049DB95827C79D5AB0B138A28F0D93 /* Loaf */,
+				A6FEFF6D68DBDAC9222A9D0A33FBC81A /* MBProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		790859802AE8BB5C69B149101620E473 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				814FD7D14238761EED26D52FE2753835 /* Loaf.modulemap */,
+				91377FF5BA382C3E3411DAFF56A5AF16 /* Loaf-dummy.m */,
+				89AFFFCC488FE3A86F631A6CA68E60B8 /* Loaf-Info.plist */,
+				F2880FDFBE430A8A3A71C74473A8F7E2 /* Loaf-prefix.pch */,
+				FE66A34F9C2391937D63BD53E8202261 /* Loaf-umbrella.h */,
+				905B797F45E2B7E6D461A96F6152CAC2 /* Loaf.debug.xcconfig */,
+				1FC9030BFFECB4C9B239498F9D7020E7 /* Loaf.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Loaf";
+			sourceTree = "<group>";
+		};
+		A6FEFF6D68DBDAC9222A9D0A33FBC81A /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				33E2FC655DAA6AB55D1E70084FA1AE19 /* MBProgressHUD.h */,
+				3D47ECA473F83C4EC559D3E678E65DA8 /* MBProgressHUD.m */,
+				58F00DD1FDF270EAD3D6632FDC974D31 /* Support Files */,
+			);
+			name = MBProgressHUD;
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		B826F6D1DDCEAA44D1416094EA96E49A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				446CC2B85C82735D433B0DA911D3501A /* Pods-FinancialApp */,
+				D255A5D721AADC76EC05811DDE6CCC8C /* Pods-FinancialApp-FinancialAppUITests */,
+				CA900BFAF5CC8DC4AB3852414BC32888 /* Pods-FinancialAppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C88A9FD339177F03E57642028564EDFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BE730510F6EBDAEF7EF02CB99F4B209 /* Loaf.framework */,
+				8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */,
+				5BE2C697BA3E916A9002ED2E88BF36B7 /* Pods_FinancialApp.framework */,
+				B3ABFFFA87FC0F769EAB0572D2E96537 /* Pods_FinancialApp_FinancialAppUITests.framework */,
+				17B5DB801CEE627C4D4250E67171E79B /* Pods_FinancialAppTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA900BFAF5CC8DC4AB3852414BC32888 /* Pods-FinancialAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				0221EECCC7402570938C4C33502DC0C1 /* Pods-FinancialAppTests.modulemap */,
+				9EE5B8FDDC0F33D87C66A19B52355B85 /* Pods-FinancialAppTests-acknowledgements.markdown */,
+				253E3D79146CB93C4D200EC2CCFB48B1 /* Pods-FinancialAppTests-acknowledgements.plist */,
+				825C75ACEF36C8B55175C32D25EDF0BB /* Pods-FinancialAppTests-dummy.m */,
+				8D9FD77D1A9D68F97867BC257A4AE742 /* Pods-FinancialAppTests-Info.plist */,
+				EB27554533FD4BA60C7D7A91BCE9C134 /* Pods-FinancialAppTests-umbrella.h */,
+				7DA9EBFB0FEF2F29D96B2C49A6654B79 /* Pods-FinancialAppTests.debug.xcconfig */,
+				649CA58EFE9A01A133D46DB356563F21 /* Pods-FinancialAppTests.release.xcconfig */,
+			);
+			name = "Pods-FinancialAppTests";
+			path = "Target Support Files/Pods-FinancialAppTests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				76B3BB2B75F30957DF28D889D35B64A9 /* Pods */,
+				C88A9FD339177F03E57642028564EDFE /* Products */,
+				B826F6D1DDCEAA44D1416094EA96E49A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D255A5D721AADC76EC05811DDE6CCC8C /* Pods-FinancialApp-FinancialAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D9CAE47570B798B7C38BAEF1F5A2C74D /* Pods-FinancialApp-FinancialAppUITests.modulemap */,
+				1CA523FE95A5F6624816F99D1CD11B59 /* Pods-FinancialApp-FinancialAppUITests-acknowledgements.markdown */,
+				0B26787CA00B8C77CEBAC471FBE11AE0 /* Pods-FinancialApp-FinancialAppUITests-acknowledgements.plist */,
+				E480E16803F9E245DF759A7EF163191B /* Pods-FinancialApp-FinancialAppUITests-dummy.m */,
+				C259019C1DBA2BF92EECBB352F8CDD7A /* Pods-FinancialApp-FinancialAppUITests-frameworks.sh */,
+				12DBBEE7B313E39B83F5BA714A9B4DBB /* Pods-FinancialApp-FinancialAppUITests-Info.plist */,
+				F1A6A9426C32769B589212410F41D4F9 /* Pods-FinancialApp-FinancialAppUITests-umbrella.h */,
+				BAC0954E7CD54EA13706145B067524B7 /* Pods-FinancialApp-FinancialAppUITests.debug.xcconfig */,
+				F18260734F6D1999747FAF0BA7823A3D /* Pods-FinancialApp-FinancialAppUITests.release.xcconfig */,
+			);
+			name = "Pods-FinancialApp-FinancialAppUITests";
+			path = "Target Support Files/Pods-FinancialApp-FinancialAppUITests";
+			sourceTree = "<group>";
+		};
+		DF049DB95827C79D5AB0B138A28F0D93 /* Loaf */ = {
+			isa = PBXGroup;
+			children = (
+				F328018CFC4B35E40355F102C57F14BA /* Animator.swift */,
+				0CF83298AE97C81326A10E9BAF1259FE /* Controller.swift */,
+				22B06878A3104E630D72DA5801A34A0C /* Extensions.swift */,
+				A1CD93BA9348794BD12FCD5E983F90AF /* Icons.swift */,
+				E62798FB68EEE92D6A9935860792954E /* Loaf.swift */,
+				9118EB61543795D7A2B15B44730AC1E0 /* Manager.swift */,
+				790859802AE8BB5C69B149101620E473 /* Support Files */,
+			);
+			name = Loaf;
+			path = Loaf;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0F35C6ABEE7819072CD0B1385C20AFE6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C4BA1D47CD470635C046C5E238326F /* Pods-FinancialApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8984E89B903E846E9618A97E9FB2C15A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4B0636A4D17A77E364AF3D258E9CD9 /* Pods-FinancialAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0EBAB2761523F18BB73EB4DC5CBEC3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B9E2F21B1EF9FE4E769103108DEA8A /* MBProgressHUD-umbrella.h in Headers */,
+				EB2A4C29BE958CCB03B3FD9FAB927F1F /* MBProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BE78FB96F035DE0C0351A1C972482C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF6DDA092BAB26485BEDB22956DA8C85 /* Loaf-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B749351D1AF7970BA96AA20EA8A46D96 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B32F3FAAB86A12BDA347FE3F68E988E /* Pods-FinancialApp-FinancialAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		127ED619695C9361B48E4528F1DF3A74 /* Pods-FinancialApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8915765E8EF404DBBB3BC4DAEA5E5589 /* Build configuration list for PBXNativeTarget "Pods-FinancialApp" */;
+			buildPhases = (
+				0F35C6ABEE7819072CD0B1385C20AFE6 /* Headers */,
+				41CBD61903A92C74EAD08CA922070E51 /* Sources */,
+				F98B862DAB0476F76CBFB5D55380AB59 /* Frameworks */,
+				2A2654C0908B385F472AB8FF6CA007D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8448B1A91E454432D25EE2D3FA295EA0 /* PBXTargetDependency */,
+				4045A2299803829930E6FF4342B52EE1 /* PBXTargetDependency */,
+			);
+			name = "Pods-FinancialApp";
+			productName = "Pods-FinancialApp";
+			productReference = 5BE2C697BA3E916A9002ED2E88BF36B7 /* Pods_FinancialApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3E12D5ED3565D8FCC3DD9B9DD89246A9 /* Loaf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 752A8374DEB2DF434B0E8D3E1E372D6B /* Build configuration list for PBXNativeTarget "Loaf" */;
+			buildPhases = (
+				9BE78FB96F035DE0C0351A1C972482C3 /* Headers */,
+				A107DEA09369E00D9478D5E6170D4082 /* Sources */,
+				2909161863B5A3EBA975E89A3E71680B /* Frameworks */,
+				F807AC81FC7886936591DD3443BCBFBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Loaf;
+			productName = Loaf;
+			productReference = 4BE730510F6EBDAEF7EF02CB99F4B209 /* Loaf.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70191416B9573C7ABB42333A08FA2DE4 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildPhases = (
+				8F0EBAB2761523F18BB73EB4DC5CBEC3 /* Headers */,
+				D2F84DC2E2DB3628B17B3841F2837477 /* Sources */,
+				1AA3C16B4B3AB40CA74BDDADEF5C143A /* Frameworks */,
+				435BF4D16B2F9CAB6E7F883F30E32B74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBProgressHUD;
+			productName = MBProgressHUD;
+			productReference = 8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AC0F2A66A5CACD2EE9E218701D448B70 /* Pods-FinancialApp-FinancialAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80ACDFE426DF67DF530370052FC08AC9 /* Build configuration list for PBXNativeTarget "Pods-FinancialApp-FinancialAppUITests" */;
+			buildPhases = (
+				B749351D1AF7970BA96AA20EA8A46D96 /* Headers */,
+				B1544BE15AC921318F6D1B0FE2506453 /* Sources */,
+				5ADA4FC90CE4EE58A845AF5945FBFCEC /* Frameworks */,
+				B6FDAFE4909BCF9483825586107C1358 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30546999CA5F1702AD1B1192E37454C9 /* PBXTargetDependency */,
+				B9167F0164D4A574D508B49D763309A6 /* PBXTargetDependency */,
+			);
+			name = "Pods-FinancialApp-FinancialAppUITests";
+			productName = "Pods-FinancialApp-FinancialAppUITests";
+			productReference = B3ABFFFA87FC0F769EAB0572D2E96537 /* Pods_FinancialApp_FinancialAppUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DA01AE7F852FC6AAED3741C52A03645E /* Pods-FinancialAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0613420D2027A25BBAC2A5382A9007CF /* Build configuration list for PBXNativeTarget "Pods-FinancialAppTests" */;
+			buildPhases = (
+				8984E89B903E846E9618A97E9FB2C15A /* Headers */,
+				F39D71795311183CE7358CBF4230EACF /* Sources */,
+				C7A998D4B0F6241C42B3E28C42C9CF5F /* Frameworks */,
+				D85303AE988CE402E0FD2465D4DBDF73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3211C83D8B50CE95C781A8DD3BF1E9D6 /* PBXTargetDependency */,
+			);
+			name = "Pods-FinancialAppTests";
+			productName = "Pods-FinancialAppTests";
+			productReference = 17B5DB801CEE627C4D4250E67171E79B /* Pods_FinancialAppTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C88A9FD339177F03E57642028564EDFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E12D5ED3565D8FCC3DD9B9DD89246A9 /* Loaf */,
+				82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */,
+				127ED619695C9361B48E4528F1DF3A74 /* Pods-FinancialApp */,
+				AC0F2A66A5CACD2EE9E218701D448B70 /* Pods-FinancialApp-FinancialAppUITests */,
+				DA01AE7F852FC6AAED3741C52A03645E /* Pods-FinancialAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A2654C0908B385F472AB8FF6CA007D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435BF4D16B2F9CAB6E7F883F30E32B74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6FDAFE4909BCF9483825586107C1358 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85303AE988CE402E0FD2465D4DBDF73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F807AC81FC7886936591DD3443BCBFBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41CBD61903A92C74EAD08CA922070E51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDB721E7BA25130A247048EC9BD891B /* Pods-FinancialApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A107DEA09369E00D9478D5E6170D4082 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				721A035134E7957C0227E47DCE0270B4 /* Animator.swift in Sources */,
+				905F6C4AE74097C8490206AAF61F1155 /* Controller.swift in Sources */,
+				EC1B62640BFAA43FF93760C93AA0D5E9 /* Extensions.swift in Sources */,
+				3A0FEA1EC8D5F7D4AE6383A1452C4C95 /* Icons.swift in Sources */,
+				7E3D75A8D56AF9B2FBB453CC9E623BAC /* Loaf-dummy.m in Sources */,
+				68291B4CF16255D3A7B0353C0BE2888F /* Loaf.swift in Sources */,
+				6270527753A2A79739ED04A0E7C2996F /* Manager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1544BE15AC921318F6D1B0FE2506453 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339C9C48783620C7352D63696D4F04B8 /* Pods-FinancialApp-FinancialAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2F84DC2E2DB3628B17B3841F2837477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABF20F73D27572CD97071A6D4DB9004 /* MBProgressHUD-dummy.m in Sources */,
+				70EE1C774C978E1876AE6CA1224E897D /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F39D71795311183CE7358CBF4230EACF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A06E19B6DDBD8CC99EC4E1041C410990 /* Pods-FinancialAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30546999CA5F1702AD1B1192E37454C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Loaf;
+			target = 3E12D5ED3565D8FCC3DD9B9DD89246A9 /* Loaf */;
+			targetProxy = 0E33645C01FE982D4D032C105474CCFF /* PBXContainerItemProxy */;
+		};
+		3211C83D8B50CE95C781A8DD3BF1E9D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FinancialApp";
+			target = 127ED619695C9361B48E4528F1DF3A74 /* Pods-FinancialApp */;
+			targetProxy = C720AE37653508480139E5A958136554 /* PBXContainerItemProxy */;
+		};
+		4045A2299803829930E6FF4342B52EE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
+			targetProxy = 59C686EBC56491BC6491D1875D49D0E1 /* PBXContainerItemProxy */;
+		};
+		8448B1A91E454432D25EE2D3FA295EA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Loaf;
+			target = 3E12D5ED3565D8FCC3DD9B9DD89246A9 /* Loaf */;
+			targetProxy = B16CA37DD2F1E5CC5A64CC39656D93C1 /* PBXContainerItemProxy */;
+		};
+		B9167F0164D4A574D508B49D763309A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
+			targetProxy = BB0292ACE5810BB359B21C121435FB17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		001F3367682A7AC23EB8087A8836D7E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F18260734F6D1999747FAF0BA7823A3D /* Pods-FinancialApp-FinancialAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FinancialApp-FinancialAppUITests/Pods-FinancialApp-FinancialAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FinancialApp-FinancialAppUITests/Pods-FinancialApp-FinancialAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		120FB25BC3AECE5912CE8CC336106B82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A8C880B765EB542FEE943DDD737D406 /* Pods-FinancialApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FinancialApp/Pods-FinancialApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FinancialApp/Pods-FinancialApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		18464D3D5DB4C4D5D951696E80C553F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 649CA58EFE9A01A133D46DB356563F21 /* Pods-FinancialAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FinancialAppTests/Pods-FinancialAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FinancialAppTests/Pods-FinancialAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		470E709B32133213C6175AC854D96834 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 905B797F45E2B7E6D461A96F6152CAC2 /* Loaf.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Loaf/Loaf-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Loaf/Loaf-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Loaf/Loaf.modulemap";
+				PRODUCT_MODULE_NAME = Loaf;
+				PRODUCT_NAME = Loaf;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6A279CEF4D83C5B22BBE18BE5041B5DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 963E3DA6F7C232F7CFC31C4F4DC02BA8 /* Pods-FinancialApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FinancialApp/Pods-FinancialApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FinancialApp/Pods-FinancialApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6E20C898EC251D8ED1F5B6E9C9F8DADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DA9EBFB0FEF2F29D96B2C49A6654B79 /* Pods-FinancialAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FinancialAppTests/Pods-FinancialAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FinancialAppTests/Pods-FinancialAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6ED1F030DA45C97604A60561E7FFB433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FC9030BFFECB4C9B239498F9D7020E7 /* Loaf.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Loaf/Loaf-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Loaf/Loaf-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Loaf/Loaf.modulemap";
+				PRODUCT_MODULE_NAME = Loaf;
+				PRODUCT_NAME = Loaf;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		71243899B61152433AAE34EE86456EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		75D70EEEA0A456E14F7338A7F342964E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		93A2FF79E2EC721C724D10C8C2AF1B64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B8E07B64692F7BBAA6CAAA88E365044 /* MBProgressHUD.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CBFD66C31CBBEE4A24B97D6774480A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86790C12B9F3EE513B0A8FD8256D80BC /* MBProgressHUD.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D7B2D966802AD292A25AF6FB16F2BD3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAC0954E7CD54EA13706145B067524B7 /* Pods-FinancialApp-FinancialAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FinancialApp-FinancialAppUITests/Pods-FinancialApp-FinancialAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FinancialApp-FinancialAppUITests/Pods-FinancialApp-FinancialAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0613420D2027A25BBAC2A5382A9007CF /* Build configuration list for PBXNativeTarget "Pods-FinancialAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E20C898EC251D8ED1F5B6E9C9F8DADD /* Debug */,
+				18464D3D5DB4C4D5D951696E80C553F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D70EEEA0A456E14F7338A7F342964E /* Debug */,
+				71243899B61152433AAE34EE86456EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70191416B9573C7ABB42333A08FA2DE4 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBFD66C31CBBEE4A24B97D6774480A7E /* Debug */,
+				93A2FF79E2EC721C724D10C8C2AF1B64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		752A8374DEB2DF434B0E8D3E1E372D6B /* Build configuration list for PBXNativeTarget "Loaf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				470E709B32133213C6175AC854D96834 /* Debug */,
+				6ED1F030DA45C97604A60561E7FFB433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80ACDFE426DF67DF530370052FC08AC9 /* Build configuration list for PBXNativeTarget "Pods-FinancialApp-FinancialAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B2D966802AD292A25AF6FB16F2BD3B /* Debug */,
+				001F3367682A7AC23EB8087A8836D7E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8915765E8EF404DBBB3BC4DAEA5E5589 /* Build configuration list for PBXNativeTarget "Pods-FinancialApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				120FB25BC3AECE5912CE8CC336106B82 /* Debug */,
+				6A279CEF4D83C5B22BBE18BE5041B5DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

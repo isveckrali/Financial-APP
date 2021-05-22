@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-FinancialApp/Pods-FinancialApp-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Loaf/Loaf.framework
+${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework
